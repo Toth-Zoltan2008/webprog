@@ -1,0 +1,66 @@
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    font-style: oblique;
+    text-align: justify;
+    text-decoration: underline;
+}
+.a{
+    text-align: center;
+    font-family: 'Times New Roman';
+    
+}
+img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+h3{
+    text-align: center;
+}
+p{text-align: left;}
+ table {
+      border-collapse: collapse;
+    }
+
+td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255)
+      
+    }
+
+.kek {
+    background-color: blue;
+    color: white;
+    }
+
+.piros {
+    background-color: red;
+    color: white;
+    }
+div{
+    align-items: center;
+    }
+.kozep {
+      display: flex;
+      justify-content: center;   
+      align-items: center;       
+    }
+
+.racs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+.racs img {
+      display: block;}
+.nagy{
+    width: 500px;
+    height: 300px;
+}
